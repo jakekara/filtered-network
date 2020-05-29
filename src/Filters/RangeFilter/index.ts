@@ -35,7 +35,8 @@ class RangeFilter {
 
     values(){
 
-        let ret = new Set(this.props.items.map(itm => itm.value));
+        let ret = Array.from(new Set(this.props.items.map(itm => itm.value)));
+        ret = ret.sort();
         // if (this.props.compareFunction){
         //     ret = ret.sort(this.props.compareFunction);
         // }
