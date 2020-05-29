@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "d3-dsv": "^1.2.0",
+    "graphology": "^0.17.1",
+    "graphology-generators": "^0.10.1",
+    "graphology-types": "^0.16.0",
+    "install": "^0.13.0",
+    "npm": "^6.14.5",
+    "sigma": "^2.0.0-alpha32",
+    "ts-loader": "^7.0.5",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "serve": "http-server ."
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "http-server": "^0.12.3",
+    "typescript": "^3.9.3",
+    "webpack-cli": "^3.3.11"
+  }
+}
